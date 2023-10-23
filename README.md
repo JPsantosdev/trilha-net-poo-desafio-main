@@ -19,4 +19,4 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O código foi implementado e resolvido conforme a solicitação do professor Buca. Com ele foi possível abstrair melhor os conhecimentos de POO, assim como aprender quais parâmetros devem ou não ser passados dentro de uma classe abstrata, assim como atribuir os conceitos de herança e interface. Foi possível perceber que alguns parâmetros devem ser passados dentro da interface, e que foi necessário passar os parâmetros de uma classe filha para uma classe pai, pois os constructors não são herdados, e muitas as vezes o terminal alertava que não existiam parâmetros sendo passados. Foi necessário inicializar os construtores dentro das classes filhas.
